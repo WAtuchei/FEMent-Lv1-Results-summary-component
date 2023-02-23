@@ -31,5 +31,28 @@
     --pSize: 18px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--PaleBlue);
+}
+
+.card-main {
+    width: 610px;
+    display: flex;
+    background-color: var(--White);
+    border-radius: 30px;
+    border: 1px solid red;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 2rem;
+}
     .attribution a { color: hsl(228, 45%, 44%); }

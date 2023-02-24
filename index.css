@@ -37,17 +37,57 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--PaleBlue);
+    background-color: var(--White);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-main {
-    width: 610px;
+    max-width: 640px;
     display: flex;
     background-color: var(--White);
     border-radius: 30px;
-    border: 1px solid red;
+    box-shadow: 10px 10px 30px var(--PaleBlue);
+    font-family: "Hanken Grotesk";
+    font-weight: 500;
+    font-size: 16px;
 }
+/* Left side */
+.card-result {
+    background-image: linear-gradient(var(--LightSlateBlue), var(--LightRoyalBlue));
+    border-radius: 30px;
+    padding: 2rem 0;
+}
+    /* Circle */
+.result-score {
+    width: 170px;
+    height: 170px;
+    background-image: linear-gradient(var(--VioletBlue), var(--PersianBlue));
+    border-radius: 50%;
+    padding: 35px;
+}
+    .result-score span:first-child { 
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 1.1;
+    }
+    .result-score span:last-child {
+        font-size: 16px;
+        color: var(--LightLavender);
+        opacity: .7;
+    }
+    /* VV head and bottom VV */
+    .result-head, .result-detail {
+        color: var(--LightLavender);
+    }
 
+/* Right side */
+
+
+/* footer */
 .attribution { 
     font-size: 11px; 
     text-align: center;

@@ -13,9 +13,10 @@
     <title>Frontend Mentor | Results summary component</title>
 
 </head>
+
 <body>
     <main class="card-main row text-center">
-            <!-- left side start here -->
+        <!-- left side start here -->
         <section class="card-result text-light col-12 col-sm-6 px-5">
             <h4 class="result-head">Your Result</h4>
 
@@ -31,30 +32,53 @@
             <p class="result-detail">You scored higher than 65% of the people who have taken these tests.</p>
         </section>
 
-            <!-- right side start here -->
-        <section class="card-summary col-12 col-sm-6 py-4 px-5">
-            <h4>Summary</h4>
+        <!-- right side start here -->
+        <section class="card-summary col-12 col-sm-6 py-4 px-4">
+            <h4 class="text-start m-2">Summary</h4>
 
-            <div class="summary-con">
-                <div class="summary-react">
-                    Reaction
-                    80 / 100
+            <div class="summary-con mx-2 my-4 ">
+                <div class="summary-react d-flex justify-content-between">
+                    <div class="summary-category">
+                        <img class="me-1" src="assets/images/icon-reaction.svg" alt="Reaction">
+                        Reaction
+                    </div>
+                    <div class="summary-score">
+                        80 / 100
+                    </div>
                 </div>
-                <div class="summary-memory">
-                    Memory
-                    92 / 100
+
+                <div class="summary-memory d-flex justify-content-between">
+                    <div class="summary-category">
+                        <img class="me-1" src="assets/images/icon-memory.svg" alt="Memory">
+                        Memory
+                    </div>
+                    <div class="summary-score">
+                        92 / 100
+                    </div>
                 </div>
-                <div class="summary-verbal">
-                    Verbal
-                    61 / 100
+
+                <div class="summary-verbal d-flex justify-content-between">
+                    <div class="summary-category">
+                        <img class="me-1" src="assets/images/icon-verbal.svg" alt="Verbal">
+                        Verbal
+                    </div>
+                    <div class="summary-score">
+                        61 / 100
+                    </div>
                 </div>
-                <div class="summary-visual">
-                    Visual
-                    72 / 100
+
+                <div class="summary-visual d-flex justify-content-between">
+                    <div class="summary-category">
+                        <img class="me-1" src="assets/images/icon-visual.svg" alt="Visual">
+                        Visual
+                    </div>
+                    <div class="summary-score">
+                        72 / 100
+                    </div>
                 </div>
             </div>
-        
-            <button>Continue</button>
+
+            <button class="BTN w-100 d-flex justify-content-center mb-1 text-light">Continue</button>
         </section>
     </main>
 
@@ -65,4 +89,5 @@
 
     <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>

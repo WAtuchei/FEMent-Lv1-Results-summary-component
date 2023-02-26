@@ -85,7 +85,38 @@ body {
     }
 
 /* Right side */
+.summary-react, .summary-memory, .summary-verbal, .summary-visual {
+    margin-top: 1rem;
+    padding: .7rem 1rem;
+}
+.summary-react {
+    border-radius: 10px;
+    background-color: hsla(0, 100%, 67%, 0.06);
+    color: var(--LightRed);
+}
+.summary-memory {
+    border-radius: 10px;
+    background-color: hsla(39, 100%, 56%, 0.06);
+    color: var(--OrangeyYellow);
+}
+.summary-verbal {
+    border-radius: 10px;
+    background-color: hsla(166, 100%, 37%, 0.06);
+    color: var(--GreenTeal);
+}
+.summary-visual {
+    border-radius: 10px;
+    background-color: hsla(234, 85%, 45%, 0.06);
+    color: var(--CobaltBlue);
+}
 
+.BTN {
+    all: unset;
+    margin-top: 2rem;
+    padding: .8rem 0;
+    background-color: var(--DarkGrayBlue);
+    border-radius: 60px;
+}
 
 /* footer */
 .attribution { 

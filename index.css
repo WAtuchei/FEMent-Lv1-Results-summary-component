@@ -85,10 +85,19 @@ body {
     }
 
 /* Right side */
+.card-summary h4, .summary-category { font-weight: 700; }
 .summary-react, .summary-memory, .summary-verbal, .summary-visual {
     margin-top: 1rem;
     padding: .7rem 1rem;
 }
+    .summary-score { 
+        color: gray;
+        font-weight: 700;
+    }
+    .summary-score span {
+        color: #000;
+        font-weight: 800;
+    }
 .summary-react {
     border-radius: 10px;
     background-color: hsla(0, 100%, 67%, 0.06);
@@ -127,3 +136,9 @@ body {
     padding-bottom: 2rem;
 }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width: 558px) {
+    .card-main { border-radius: 0; }
+    .card-result { border-radius: 0 0 30px 30px; }
+    .attribution { padding: 0;}
+}

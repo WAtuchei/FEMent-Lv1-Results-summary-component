@@ -137,8 +137,55 @@ body {
 }
     .attribution a { color: hsl(228, 45%, 44%); }
 
-@media only screen and (max-width: 558px) {
-    .card-main { border-radius: 0; }
-    .card-result { border-radius: 0 0 30px 30px; }
-    .attribution { padding: 0;}
+
+/* Responsive */
+@media only screen and (max-width: 400px) {
+    .card-main {
+        min-height: 100vh;
+        border-radius: 0;
+    }
+    .card-result { 
+        padding: 2rem 3.5rem !important;
+        border-radius: 0 0 30px 30px;
+    }
+    .result-score { 
+        width: 150px;
+        height: 150px;
+    }
+    .result-detail { margin-bottom: -1.5rem; }
+    .card-summary { padding: 2rem 2.5rem !important; }
+    .summary-react, .summary-memory, .summary-verbal, .summary-visual {
+        margin-top: 1.5rem;
+        padding: 1rem 1rem;
+    }
+    .BTN {
+        font-size: 18px;
+        font-weight: 700; 
+        padding: 1rem 0; }
+    .attribution { padding: 0; z-index: 2;}
+}
+@media only screen and (min-width: 401px) and (max-width: 575px) {
+    .card-main {
+        min-height: 100vh;
+        border-radius: 0;
+    }
+    .card-result { 
+        padding: 2rem 3.5rem !important;
+        border-radius: 0 0 30px 30px;
+    }
+    .result-score { 
+        width: 150px;
+        height: 150px;
+    }
+    .result-detail { margin-bottom: -.5rem; }
+    .card-summary { padding: 2rem 2.5rem !important; }
+    .summary-react, .summary-memory, .summary-verbal, .summary-visual {
+        margin-top: 2rem;
+        padding: 1.2rem 1.2rem;
+    }
+    .BTN {
+        font-size: 18px;
+        font-weight: 700; 
+        padding: 1rem 0; }
+    .attribution { padding: 0; z-index: 2;}
 }

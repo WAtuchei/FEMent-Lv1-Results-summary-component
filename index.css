@@ -148,12 +148,14 @@ body {
         padding: 2rem 3.5rem !important;
         border-radius: 0 0 30px 30px;
     }
-    .result-score { 
-        width: 150px;
-        height: 150px;
-    }
-    .result-detail { margin-bottom: -1.5rem; }
+        .result-score { 
+            width: 150px;
+            height: 150px;
+        }
+        .result-detail { margin-bottom: -1.5rem; }
+
     .card-summary { padding: 2rem 2.5rem !important; }
+
     .summary-react, .summary-memory, .summary-verbal, .summary-visual {
         margin-top: 1.5rem;
         padding: 1rem 1rem;
@@ -161,9 +163,11 @@ body {
     .BTN {
         font-size: 18px;
         font-weight: 700; 
-        padding: 1rem 0; }
+        padding: 1rem 0; 
+    }
     .attribution { padding: 0; z-index: 2;}
 }
+
 @media only screen and (min-width: 401px) and (max-width: 575px) {
     .card-main {
         min-height: 100vh;
@@ -173,11 +177,12 @@ body {
         padding: 2rem 3.5rem !important;
         border-radius: 0 0 30px 30px;
     }
-    .result-score { 
-        width: 150px;
-        height: 150px;
-    }
-    .result-detail { margin-bottom: -.5rem; }
+        .result-score { 
+            width: 150px;
+            height: 150px;
+        }
+        .result-detail { margin-bottom: -.5rem; }
+
     .card-summary { padding: 2rem 2.5rem !important; }
     .summary-react, .summary-memory, .summary-verbal, .summary-visual {
         margin-top: 2rem;
@@ -186,6 +191,7 @@ body {
     .BTN {
         font-size: 18px;
         font-weight: 700; 
-        padding: 1rem 0; }
+        padding: 1rem 0;
+    }
     .attribution { padding: 0; z-index: 2;}
 }
